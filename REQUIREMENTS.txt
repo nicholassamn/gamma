@@ -1,0 +1,53 @@
+# Task Manager Requirements
+
+## Sistem Operasi
+- Linux, macOS, Windows
+
+## Python Version
+- Python 3.6+
+
+## External Dependencies
+TIDAK ADA! Program ini hanya menggunakan standard library Python.
+
+## Standard Library yang Digunakan
+- json - Untuk penyimpanan dan pembacaan file
+- os - Untuk operasi file system
+- datetime - Untuk handling tanggal dan deadline
+- typing - Untuk type hints
+- pathlib - Untuk path operations
+- sys - Untuk system operations
+
+## Cara Menginstall dan Menjalankan
+
+### Instalasi Python
+```bash
+# Ubuntu/Debian
+sudo apt-get install python3 python3-pip
+
+# macOS
+brew install python3
+
+# Windows
+Unduh dari https://www.python.org/downloads/
+```
+
+### Verifikasi Python
+```bash
+python3 --version  # Harus 3.6 atau lebih tinggi
+```
+
+### Menjalankan Task Manager
+```bash
+# Navigasi ke folder project
+cd /workspaces/gamma
+
+# Jalankan aplikasi utama
+python3 task_manager.py
+
+# Atau jalankan demo
+python3 demo_task_manager.py
+```
+
+## Catatan
+Tidak perlu menjalankan `pip install` karena tidak ada dependencies eksternal.
+Program ini menggunakan hanya built-in Python modules.
